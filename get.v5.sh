@@ -10,4 +10,4 @@ queries="${2}"
 
 ## runners
 
-curl -L -X GET "https://api-testnet.bybit.com/v5/${path}?${queries}"
+curl -sL "https://api-testnet.bybit.com/v5/${path}?${queries}"
