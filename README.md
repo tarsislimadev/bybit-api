@@ -20,6 +20,14 @@ API_KEY=
 
 ```
 
+## how to use
+
+### get tickers
+
+```
+bash ./src/market/tickers.sh 
+```
+
 ## license
 
 [MIT](./LICENSE)
