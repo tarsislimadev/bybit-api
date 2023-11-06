@@ -2,17 +2,17 @@
 
 ## inputs
 
+. datetime.sh
+
 category="spot"
 
 symbol="${1}"
 
 path="market/tickers"
 
-. datetime.sh
-
 ## runners
 
-resp=$( bash get.v5.sh "${path}" "category=${category}&symbol=${symbol}" )
+resp=$( bash get.sh "${path}" "category=${category}&symbol=${symbol}" )
 
 ## outputs
 
